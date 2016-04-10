@@ -1,6 +1,11 @@
 //esconder el mensaje
-jQuery(".advertencia").hide();
+//jQuery(".advertencia").hide();
 //mostrar el mensaje lentamente usamos atajo
-$(".advertencia").show("slow");
+//$(".advertencia").show("slow");
 
-///jQuery(".advertencia").hide().show("slow")
+function enviarAdvertencia()
+{
+jQuery(".advertencia").hide().show("slow")
+}
+//le pasamos al handler la funcion sin parentesis  
+$(document).ready(enviarAdvertencia)
