@@ -15,3 +15,11 @@ $(".spoiler span").hide();
 
 //2.agregar boton
 $(".spoiler").append("<button>mostrar spoiler!</button>");
+
+//3 cuando presione el boton 
+//agregar un handler al evento clic
+$(".spoiler button").click(funcion(){
+	3.1 mostrar spoiler
+}
+$(".spoiler span").show();
+//3.2 
